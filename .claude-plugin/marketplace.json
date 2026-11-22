@@ -1,0 +1,22 @@
+{
+  "name": "recalld",
+  "description": "Long-term memory for coding agents, shared across your tools.",
+  "owner": {
+    "name": "recalld",
+    "url": "https://recalld.ai"
+  },
+  "plugins": [
+    {
+      "name": "recalld",
+      "source": "./plugins/recalld",
+      "description": "Long-term memory for Claude, shared across your tools. US region.",
+      "category": "productivity"
+    },
+    {
+      "name": "recalld-eu",
+      "source": "./plugins/recalld-eu",
+      "description": "Long-term memory for Claude, shared across your tools. EU region.",
+      "category": "productivity"
+    }
+  ]
+}

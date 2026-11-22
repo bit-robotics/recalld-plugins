@@ -1,0 +1,23 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "mcp_tool",
+            "server": "plugin:recalld:recalld",
+            "tool": "memory_context",
+            "input": {
+              "query": "${prompt}",
+              "project": "${cwd}",
+              "transcript_path": "${transcript_path}",
+              "hook_event": "UserPromptSubmit"
+            },
+            "timeout": 10,
+            "statusMessage": "Recalling memory"
+          }
+        ]
+      }
+    ]
+  }
+}

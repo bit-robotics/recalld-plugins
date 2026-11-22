@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "recalld": {
+      "type": "http",
+      "url": "https://eu.recalld.ai/mcp"
+    }
+  }
+}
