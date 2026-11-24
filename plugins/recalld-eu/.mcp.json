@@ -2,7 +2,7 @@
   "mcpServers": {
     "recalld": {
       "type": "http",
-      "url": "https://eu.recalld.ai/mcp"
+      "url": "https://eu.recalld.ai/mcp?via=plugin"
     }
   }
 }
