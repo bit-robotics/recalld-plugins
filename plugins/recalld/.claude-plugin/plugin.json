@@ -7,7 +7,11 @@
     "url": "https://recalld.ai"
   },
   "homepage": "https://recalld.ai",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://recalld.ai/docs/claude-code-plugin",
+  "supportUrl": "https://github.com/bit-robotics/recalld-plugins/issues",
   "privacyPolicyUrl": "https://recalld.ai/legal/privacy",
+  "termsOfServiceUrl": "https://recalld.ai/legal/terms",
   "license": "MIT",
   "repository": "https://github.com/bit-robotics/recalld-plugins",
   "keywords": ["memory", "recalld", "context"]
